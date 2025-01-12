@@ -1,0 +1,47 @@
+.
+├── App.vue
+├── assets
+│  ├── base.css
+│  ├── logo.svg
+│  └── main.css
+├── components
+│  ├── AddNewImage.vue
+│  ├── common
+│  │  ├── AvatarApp.vue
+│  │  └── UserAvatar.vue
+│  ├── Compare.vue
+│  ├── CopyProject.vue
+│  ├── Directory.vue
+│  ├── Editor.vue
+│  ├── HomeContent.vue
+│  ├── layouts
+│  │  └── HeaderHome.vue
+│  ├── SettingBar.vue
+│  └── ShareMode.vue
+├── constant
+│  ├── index.ts
+│  └── theme.ts
+├── latex
+│  ├── completion-item-provider.ts
+│  ├── language-config.ts
+│  ├── provider-complete-item.ts
+│  ├── snippet.json
+│  └── tokens-provider.ts
+├── main.ts
+├── router
+│  └── index.ts
+├── services
+│  ├── API.ts
+│  ├── confirm.ts
+│  ├── functions.ts
+│  └── notification.ts
+├── structure.txt
+├── variable.scss
+└── views
+    ├── HomeView.vue
+    ├── Login.vue
+    ├── Project.vue
+    └── Signup.vue
+
+9 directories, 34 files
+tree -L 3
