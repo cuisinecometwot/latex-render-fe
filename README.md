@@ -1,9 +1,3 @@
-password: test/123456aA
-
-viewer: sv_hust
-editor: test1
-null: baby1234
-
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -20,9 +14,16 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Clone the repository
+```bash
+git clone https://github.com/cuisinecometwot/latex-render-fe.git
+cd latex-render-fe
+```
+
 ## Project Setup
 
 ```sh
+nano .env # configure
 npm install
 ```
 
